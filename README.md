@@ -1,28 +1,30 @@
-<!-- ============================ BANNER ============================ -->
+<!-- ═══════════════════════════════ BANNER ═══════════════════════════════ -->
 <p align="center">
-  <img src="https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif" width="100%" alt="Animated banner" />
+  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="100%" alt="Tech banner" />
 </p>
 
 <h1 align="center">Hi, I'm Said Mhamdi 👋</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=800&color=36BCF7&center=true&vCenter=true&width=640&lines=Computer+Engineering+Student;Full-Stack+Developer+%7C+FastAPI+%2B+Next.js;Data+%26+Business+Intelligence+Enthusiast;Building+secure%2C+data-driven+platforms" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=2F81F7&center=true&vCenter=true&width=600&height=45&lines=Computer+Engineering+Student;Full-Stack+Developer;FastAPI+%E2%80%A2+Next.js+%E2%80%A2+PostgreSQL;Data+%26+Business+Intelligence;Secure+%E2%80%A2+Tested+%E2%80%A2+Data-driven" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/said-mhamdi-6785a820a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mhamdisaid89@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/Said-MHD?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Said-MHD&style=for-the-badge&color=36BCF7&label=VIEWS" alt="Profile views" />
+  <a href="mailto:mhamdisaid89@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Said-MHD?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Said-MHD&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-Internships%20%26%20Collaborations-2ea44f?style=flat-square" alt="Open to opportunities" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20internships%20%26%20collaborations-2ea44f?style=flat-square" alt="Open to opportunities" />
 </p>
 
-<!-- ============================ ABOUT ============================ -->
+<br/>
+
+<!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
 ## 🧑‍💻 About me
 
 ```python
@@ -52,7 +54,7 @@ if __name__ == "__main__":
     print(f"👋 {me.say_hi()}")
 ```
 
-<p><b>▶️ Output</b></p>
+<b>▶️ Output</b>
 
 ```console
 $ python said_mhamdi.py
@@ -68,75 +70,62 @@ $ python said_mhamdi.py
 👋 Thanks for stopping by — let's build something useful together!
 ```
 
-- 🏗️ I turn complex business needs into **reliable, secure and tested** software
-- 📊 I care about **data quality and governance** before dashboards and before AI
-- 🧪 I work in **sprints** with clear evidence and **GO / NO-GO** reviews before each release
-- 🌱 Currently deepening **cloud, DevOps and BI** skills
+<!-- ═══════════════════════════════ WHAT I DO ═══════════════════════════════ -->
+## ⚡ What I do
 
-<!-- ============================ FEATURED ============================ -->
-## 🚀 Featured project — Tukhnanutha Dashboard
+<img align="right" width="230" src="https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif" alt="Circuit animation" />
 
-> A backend-first platform for **strategic supervision and governance** of a multi-entity group: KPIs, risks, compliance, finance, alerts, incidents and operational steering.
+- 🏗️ **Backend engineering** — clean REST APIs with FastAPI and Spring, versioned database migrations, typed validation
+- 🎨 **Frontend** — Next.js and React interfaces behind a secure BFF layer
+- 🔐 **Security by design** — JWT in HttpOnly cookies, role-based access control, full audit trail
+- 🐳 **DevOps** — Docker Compose, HTTPS gateway, healthchecks, backup &amp; restore
+- 🧪 **Quality** — automated tests with pytest and Playwright, evidence before every release
+- 📊 **Data &amp; BI** — data quality and governance first, then dashboards, then decision support
 
-```mermaid
-flowchart LR
-    U([👤 User]) -->|HTTPS / TLS| C[Caddy Gateway]
-    C --> F[Next.js + React<br/>BFF layer]
-    F -->|JWT · HttpOnly cookie| A[FastAPI API]
-    A --> R{{RBAC · 7 roles}}
-    A --> L[(Audit log)]
-    A --> D[(PostgreSQL<br/>Alembic migrations)]
-    D --> B[📊 BI-ready KPIs]
-    B -.-> G[🤖 Governed AI<br/><i>groundwork</i>]
-```
+**How I work:** short sprints → targeted tests → evidence pack → **GO / NO-GO** review → release.
 
-<table>
+<br clear="right"/>
+
+<!-- ═══════════════════════════════ FEATURED ═══════════════════════════════ -->
+## 🚀 Currently building
+
+> **Tukhnanutha Dashboard** — a strategic supervision and governance platform for a multi-entity group.
+> Built with FastAPI, PostgreSQL, Next.js and Docker.
+
+<p>
+  <img src="https://img.shields.io/badge/Repository-Private-lightgrey?style=flat-square&logo=github" alt="Private repository" />
+  <img src="https://img.shields.io/badge/Status-In%20progress-2F81F7?style=flat-square" alt="In progress" />
+</p>
+
+<!-- ═══════════════════════════════ STACK ═══════════════════════════════ -->
+## 🛠️ Tech stack
+
+<table align="center">
   <tr>
-    <td><b>🔐 Security</b></td>
-    <td>JWT in HttpOnly cookies · role-based access control · full audit trail</td>
+    <td align="center" width="140"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,postgres" alt="Backend" /></td>
   </tr>
   <tr>
-    <td><b>🐳 Infrastructure</b></td>
-    <td>Docker Compose · Caddy reverse proxy with HTTPS · healthchecks · backup &amp; restore</td>
+    <td align="center"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,html,css" alt="Frontend" /></td>
   </tr>
   <tr>
-    <td><b>🧪 Quality</b></td>
-    <td>pytest (backend) · Playwright (end-to-end) · evidence pack for every sprint</td>
+    <td align="center"><b>DevOps &amp; Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,postman" alt="DevOps and tools" /></td>
   </tr>
   <tr>
-    <td><b>📊 Data</b></td>
-    <td>Strict separation of demo / simulated / real data · KPI definitions, thresholds and snapshots</td>
+    <td align="center"><b>Data &amp; Testing</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+      <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+      <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+      <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+    </td>
   </tr>
 </table>
 
-<!-- ============================ STACK ============================ -->
-## 🛠️ Tech stack
-
-<p align="center">
-  <b>Backend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,postgres&theme=dark" alt="Backend" />
-</p>
-
-<p align="center">
-  <b>Frontend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,html,css&theme=dark" alt="Frontend" />
-</p>
-
-<p align="center">
-  <b>DevOps &amp; Tools</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,postman&theme=dark" alt="DevOps and tools" />
-</p>
-
-<p align="center">
-  <b>Data &amp; Testing</b><br/><br/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-</p>
-
-<!-- ============================ PROJECTS ============================ -->
+<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
 ## 📂 Other projects
 
 <table>
@@ -145,7 +134,7 @@ flowchart LR
       <h3>🗂️ <a href="https://github.com/Said-MHD/smart-file-organizer">smart-file-organizer</a></h3>
       <p>Automatically sorts and organises files into folders by type and rules.</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Automation-36BCF7?style=flat-square" alt="Automation" />
+      <img src="https://img.shields.io/badge/Automation-2F81F7?style=flat-square" alt="Automation" />
     </td>
     <td width="50%" valign="top">
       <h3>🤖 <a href="https://github.com/Said-MHD/github-bot">github-bot</a></h3>
@@ -156,39 +145,36 @@ flowchart LR
   </tr>
 </table>
 
-<!-- ============================ STATS ============================ -->
+<!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
 ## 📈 GitHub activity
-
-<!-- Cards generated inside this repository by .github/workflows/profile.yml -->
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile details" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repositories per language" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most committed languages" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive time" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Said-MHD&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
-<!-- Snake animation: generated by .github/workflows/profile.yml -->
+<!-- Cards below are generated inside this repository by .github/workflows/profile.yml -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Said-MHD/Said-MHD/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/Said-MHD/Said-MHD/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
-  </picture>
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile details" />
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most committed languages" />
 </p>
 
-<!-- ============================ FOOTER ============================ -->
+<!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
+<h3 align="center">🐍 Snake II — Nokia 3310 edition</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Said-MHD/Said-MHD/output/nokia-snake.gif" width="100%" alt="Contribution snake in Nokia 3310 style" />
+</p>
+
+<p align="center"><sub>My contribution history, eaten one commit at a time.</sub></p>
+
+<!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+<br/>
+
 <p align="center">
   <i>“Data first, then insight, then intelligence.”</i>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:36BCF7&height=110&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=110&section=footer" width="100%" alt="footer" />
