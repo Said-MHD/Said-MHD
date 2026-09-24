@@ -1,9 +1,9 @@
 <!-- ============================ BANNER ============================ -->
 <p align="center">
-  <img src="https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif" width="100%" height="220" style="object-fit:cover;" alt="Animated banner" />
+  <img src="https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif" width="100%" alt="Animated banner" />
 </p>
 
-<h1 align="center">Hi, I'm Said Mhamdi <img src="https://em-content.zobj.net/source/microsoft-teams/363/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.gif" width="32" alt="wave" /></h1>
+<h1 align="center">Hi, I'm Said Mhamdi 👋</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/said-mhamdi-6785a820a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:mhamdisaid89@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Said-MHD?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
   <img src="https://komarev.com/ghpvc/?username=Said-MHD&style=for-the-badge&color=36BCF7&label=VIEWS" alt="Profile views" />
 </p>
@@ -37,6 +37,35 @@ class SaidMhamdi:
 
     def say_hi(self):
         return "Thanks for stopping by — let's build something useful together!"
+
+
+if __name__ == "__main__":
+    me = SaidMhamdi()
+    print(f"👨‍💻 {me.role}")
+    print(f"🎯 Focus     : {' · '.join(me.focus)}")
+    print(f"⚙️  Backend   : {' · '.join(me.backend)}")
+    print(f"🎨 Frontend  : {' · '.join(me.frontend)}")
+    print(f"🐳 DevOps    : {' · '.join(me.devops)}")
+    print(f"🚀 Currently : {me.currently}")
+    print(f"💡 Principle : {me.principle}")
+    print()
+    print(f"👋 {me.say_hi()}")
+```
+
+<p><b>▶️ Output</b></p>
+
+```console
+$ python said_mhamdi.py
+
+👨‍💻 Computer Engineering Student
+🎯 Focus     : Full-Stack Development · Data Engineering · Business Intelligence
+⚙️  Backend   : Python · FastAPI · Java · Spring · PostgreSQL
+🎨 Frontend  : Next.js · React · TypeScript
+🐳 DevOps    : Docker · Caddy · Git · GitHub
+🚀 Currently : Building Tukhnanutha Dashboard — a strategic supervision platform
+💡 Principle : Data first, then insight, then intelligence.
+
+👋 Thanks for stopping by — let's build something useful together!
 ```
 
 - 🏗️ I turn complex business needs into **reliable, secure and tested** software
@@ -110,32 +139,46 @@ flowchart LR
 <!-- ============================ PROJECTS ============================ -->
 ## 📂 Other projects
 
-<p align="center">
-  <a href="https://github.com/Said-MHD/smart-file-organizer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Said-MHD&repo=smart-file-organizer&theme=tokyonight&hide_border=true" alt="smart-file-organizer" />
-  </a>
-  <a href="https://github.com/Said-MHD/github-bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Said-MHD&repo=github-bot&theme=tokyonight&hide_border=true" alt="github-bot" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🗂️ <a href="https://github.com/Said-MHD/smart-file-organizer">smart-file-organizer</a></h3>
+      <p>Automatically sorts and organises files into folders by type and rules.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Automation-36BCF7?style=flat-square" alt="Automation" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/Said-MHD/github-bot">github-bot</a></h3>
+      <p>Automation bot for repetitive GitHub tasks.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/GitHub%20API-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub API" />
+    </td>
+  </tr>
+</table>
 
 <!-- ============================ STATS ============================ -->
 ## 📈 GitHub activity
 
+<!-- Cards generated inside this repository by .github/workflows/profile.yml -->
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Said-MHD&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Said-MHD&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile details" />
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repositories per language" />
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most committed languages" />
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive time" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Said-MHD&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Said-MHD&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-</p>
-
-<!-- Snake animation: generated by .github/workflows/snake.yml -->
+<!-- Snake animation: generated by .github/workflows/profile.yml -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Said-MHD/Said-MHD/output/github-contribution-grid-snake-dark.svg" />
