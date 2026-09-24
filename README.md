@@ -27,64 +27,66 @@
 <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
 ## 🧑‍💻 About me
 
-```python
-class SaidMhamdi:
-    role      = "Computer Engineering Student"
-    focus     = ["Full-Stack Development", "Data Engineering", "Business Intelligence"]
-    backend   = ["Python", "FastAPI", "Java", "Spring", "PostgreSQL"]
-    frontend  = ["Next.js", "React", "TypeScript"]
-    devops    = ["Docker", "Caddy", "Git", "GitHub"]
-    currently = "Building Tukhnanutha Dashboard — a strategic supervision platform"
-    principle = "Data first, then insight, then intelligence."
-
-    def say_hi(self):
-        return "Thanks for stopping by — let's build something useful together!"
-
-
-if __name__ == "__main__":
-    me = SaidMhamdi()
-    print(f"👨‍💻 {me.role}")
-    print(f"🎯 Focus     : {' · '.join(me.focus)}")
-    print(f"⚙️  Backend   : {' · '.join(me.backend)}")
-    print(f"🎨 Frontend  : {' · '.join(me.frontend)}")
-    print(f"🐳 DevOps    : {' · '.join(me.devops)}")
-    print(f"🚀 Currently : {me.currently}")
-    print(f"💡 Principle : {me.principle}")
-    print()
-    print(f"👋 {me.say_hi()}")
-```
-
-<b>▶️ Output</b>
-
-```console
-$ python said_mhamdi.py
-
-👨‍💻 Computer Engineering Student
-🎯 Focus     : Full-Stack Development · Data Engineering · Business Intelligence
-⚙️  Backend   : Python · FastAPI · Java · Spring · PostgreSQL
-🎨 Frontend  : Next.js · React · TypeScript
-🐳 DevOps    : Docker · Caddy · Git · GitHub
-🚀 Currently : Building Tukhnanutha Dashboard — a strategic supervision platform
-💡 Principle : Data first, then insight, then intelligence.
-
-👋 Thanks for stopping by — let's build something useful together!
-```
+<table>
+  <tr>
+    <td width="62%" valign="top">
+      <p>
+        I'm a <b>Computer Engineering student</b> who enjoys turning complex business needs
+        into <b>reliable, secure and well-tested software</b>.
+        I work across the whole stack — from database design and APIs to user interfaces and deployment —
+        with a strong interest in <b>data and business intelligence</b>.
+      </p>
+      <p>
+        🎓 &nbsp;<b>Education</b> — Computer Engineering<br/>
+        🎯 &nbsp;<b>Focus</b> — Full-Stack · Data Engineering · BI<br/>
+        🚀 &nbsp;<b>Currently</b> — building a strategic supervision platform<br/>
+        🌱 &nbsp;<b>Learning</b> — Cloud, DevOps and advanced BI<br/>
+        🤝 &nbsp;<b>Open to</b> — internships and collaborations<br/>
+        📫 &nbsp;<b>Reach me</b> — <a href="mailto:mhamdisaid89@gmail.com">mhamdisaid89@gmail.com</a>
+      </p>
+      <p>
+        💡 <i>“Data first, then insight, then intelligence.”</i>
+      </p>
+    </td>
+    <td width="38%" align="center" valign="middle">
+      <img src="https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif" width="240" alt="Circuit animation" />
+    </td>
+  </tr>
+</table>
 
 <!-- ═══════════════════════════════ WHAT I DO ═══════════════════════════════ -->
 ## ⚡ What I do
 
-<img align="right" width="230" src="https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif" alt="Circuit animation" />
-
-- 🏗️ **Backend engineering** — clean REST APIs with FastAPI and Spring, versioned database migrations, typed validation
-- 🎨 **Frontend** — Next.js and React interfaces behind a secure BFF layer
-- 🔐 **Security by design** — JWT in HttpOnly cookies, role-based access control, full audit trail
-- 🐳 **DevOps** — Docker Compose, HTTPS gateway, healthchecks, backup &amp; restore
-- 🧪 **Quality** — automated tests with pytest and Playwright, evidence before every release
-- 📊 **Data &amp; BI** — data quality and governance first, then dashboards, then decision support
-
-**How I work:** short sprints → targeted tests → evidence pack → **GO / NO-GO** review → release.
-
-<br clear="right"/>
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>🏗️ Backend</h3>
+      <p>Clean REST APIs with <b>FastAPI</b> and <b>Spring</b>, versioned database migrations and typed validation.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🎨 Frontend</h3>
+      <p>Modern interfaces with <b>Next.js</b>, <b>React</b> and <b>TypeScript</b>, behind a secure BFF layer.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>📊 Data &amp; BI</h3>
+      <p>Data quality and governance first, then <b>dashboards</b> and <b>decision support</b>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>🔐 Security</h3>
+      <p>JWT in HttpOnly cookies, <b>role-based access control</b> and a full audit trail.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🐳 DevOps</h3>
+      <p><b>Docker Compose</b>, HTTPS gateway, healthchecks, backup &amp; restore.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🧪 Quality</h3>
+      <p>Automated tests with <b>pytest</b> and <b>Playwright</b>, and a GO / NO-GO review before every release.</p>
+    </td>
+  </tr>
+</table>
 
 <!-- ═══════════════════════════════ FEATURED ═══════════════════════════════ -->
 ## 🚀 Currently building
